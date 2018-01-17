@@ -15,8 +15,6 @@ html, body {
 .content {
   height: 55%;
   overflow: auto;
-  margin-top: 200px;
-  margin-bottom: 200px;
   background: url("../images/Body.png");
   background-size: cover;
   background-attachment: fixed;
