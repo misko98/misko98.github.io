@@ -6,6 +6,8 @@ html, body {
 	height: 22.5%;
 	background: url("../images/Header.png");
 	background-size: cover;
+	display: flex;
+    justify-content: center;
 }
 .footer {
 	height: 22.5%;
@@ -28,7 +30,4 @@ p {
 	border: 5px solid blue;
 
 
-}
-.title {
-	position: absolute;
 }
