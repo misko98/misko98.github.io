@@ -20,4 +20,10 @@ html, body {
   background-attachment: fixed;
   background-position: center; }
 
+p {
+  color: lime;
+  font-size: 48px;
+  padding: 10px;
+  border: 5px solid blue; }
+
 /*# sourceMappingURL=home.css.map */
