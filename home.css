@@ -1,6 +1,8 @@
 body {
   background: url("../images/bkd.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
 
 /*# sourceMappingURL=home.css.map */
