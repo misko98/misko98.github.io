@@ -3,12 +3,12 @@ html, body {
   margin: 0; }
 
 .header {
-  height: 200px;
+  height: 22.5%;
   background: url("../images/Header.png");
   background-size: cover; }
 
 .footer {
-  height: 200px;
+  height: 22.5%;
   background: url("../images/Footer.png");
   background-size: cover; }
 
@@ -16,7 +16,7 @@ html, body {
   height: 55%;
   overflow: auto;
   background: url("../images/Body.png");
-  background-size: cover;
+  background-size: contain;
   background-attachment: fixed;
   background-position: center; }
 
