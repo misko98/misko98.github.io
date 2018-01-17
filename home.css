@@ -27,6 +27,6 @@ p {
   border: 5px solid blue; }
 
 .title {
-  position: center; }
+  position: absolute; }
 
 /*# sourceMappingURL=home.css.map */
