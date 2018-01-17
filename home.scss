@@ -3,18 +3,30 @@ html, body {
 	margin: 0;
 }
 .header {
-	height: 22.5%;
+	top:0; left: 0;
+	position: fixed;
+    width: 100%;
+    float: left;
+	height: 12.5em;
 	background: url("../images/Header.png");
 	background-size: cover;
 }
 .footer {
-	height: 22.5%;
+	bottom: 0; left: 0;
+	 position: fixed;
+    width: 100%;
+    float: left;
+	height: 12.5em;
 	background: url("../images/Footer.png");
 	background-size: cover;
 }
 .content {
-	height: 55%;
-	overflow: auto;
+	margin-top: 12.5em;
+	margin-bottom: 12.5em;
+	 position: relative;
+    width: 100%;
+    float: left;
+	height: 31.25em;
 	background: url("../images/Body.png");
 	background-size: cover;
 	background-attachment: fixed;
