@@ -12,11 +12,7 @@ html, body {
 .footer {
   height: 22.5%;
   background: url("../images/Footer.png");
-  background-size: cover;
-  display: inline-block; }
-  .footer p {
-    float: left;
-    bottom: 0; }
+  background-size: cover; }
 
 .content {
   height: 55%;
