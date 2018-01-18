@@ -12,7 +12,8 @@ html, body {
 .footer {
   height: 22.5%;
   background: url("../images/Footer.png");
-  background-size: cover; }
+  background-size: cover;
+  position: fixed; }
 
 .content {
   height: 55%;
