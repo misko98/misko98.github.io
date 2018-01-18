@@ -12,7 +12,11 @@ html, body {
 .footer {
   height: 22.5%;
   background: url("../images/Footer.png");
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  justify-content: center; }
+  .footer p {
+    float: left; }
 
 .content {
   height: 55%;
@@ -21,22 +25,21 @@ html, body {
   background-size: contain;
   background-attachment: fixed;
   background-position: center; }
+  .content p {
+    font-family: arial;
+    color: #c77e19;
+    font-size: 16px;
+    padding: 10px;
+    border: 3px double #c77e19; }
+    .content p .levo {
+      text-align: left; }
+    .content p .desno {
+      text-align: right; }
 
 h1 {
   font-family: arial;
   color: white;
   text-align: center; }
-
-p {
-  font-family: arial;
-  color: #c77e19;
-  font-size: 16px;
-  padding: 10px;
-  border: 3px double #c77e19; }
-  p .levo {
-    text-align: left; }
-  p .desno {
-    text-align: right; }
 
 /* Let's get this party started */
 ::-webkit-scrollbar {

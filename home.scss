@@ -13,6 +13,9 @@ html, body {
 	height: 22.5%;
 	background: url("../images/Footer.png");
 	background-size: cover;
+	display: flex;
+    justify-content: center;
+	p {float:left;}
 }
 .content {
 	height: 55%;
@@ -21,15 +24,7 @@ html, body {
 	background-size: contain;
 	background-attachment: fixed;
 	background-position: center;
-
-}
-h1 {
-	font-family: arial;	
-	color: white;
-	text-align: center;
-
-}
-p {
+	p {
 	font-family: arial;
 	color: #c77e19;
 	font-size: 16px;
@@ -42,6 +37,14 @@ p {
 		text-align:right;
 		}
 }
+}
+h1 {
+	font-family: arial;	
+	color: white;
+	text-align: center;
+
+}
+
 /* Let's get this party started */
 ::-webkit-scrollbar {
     width: 12px;
