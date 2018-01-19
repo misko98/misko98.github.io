@@ -18,6 +18,8 @@ html, body {
   flex-wrap: wrap; }
 
 .ftp {
+  width: 100%;
+  text-align: center;
   float: left;
   bottom: 0;
   color: lime;
