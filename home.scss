@@ -13,8 +13,11 @@ html, body {
 	height: 22.5%;
 	background: url("../images/Footer.png");
 	background-size: cover;
+	display: flex;
+	justify-content: center;
 	}
 .ftp {
+	float: left;
 	bottom: 0; 
 	color:lime;
 	font-family: Arial;

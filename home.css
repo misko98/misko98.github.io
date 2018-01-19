@@ -12,9 +12,12 @@ html, body {
 .footer {
   height: 22.5%;
   background: url("../images/Footer.png");
-  background-size: cover; }
+  background-size: cover;
+  display: flex;
+  justify-content: center; }
 
 .ftp {
+  float: left;
   bottom: 0;
   color: lime;
   font-family: Arial; }
