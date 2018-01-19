@@ -14,7 +14,8 @@ html, body {
   background: url("../images/Footer.png");
   background-size: cover;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  flex-wrap: wrap; }
 
 .ftp {
   float: left;
