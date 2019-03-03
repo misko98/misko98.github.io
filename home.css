@@ -26,7 +26,7 @@ html, body {
   font-family: Arial; }
 
 .content {
-  height: 55%;
+  height: 54%;
   overflow: auto;
   background: url("../images/Body.png");
   background-size: contain;
